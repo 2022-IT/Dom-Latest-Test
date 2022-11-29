@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(129, 106, 106);
+    font-family:'Roboto', sans-serif;
+    font-size: larger;
+}
+
+h1{
+    color:#ea9325;
+    text-align: center;
+    font-family: 'Anton',sans-serif;
+    margin: 10px!important;
+}
+
+
+.product1 {
+    width: 210px;
+    height: 190px;
+}
+
+.plus-btn,.sustraction-btn, .delete-btn, .like-btn{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    justify-content: center;
+}
+
+.Quantity{
+    width: 110px;
+    height: 110px;
+}
+
+.delete-btn, .like-btn{
+    border: none;
+}
+
+
+.shopping-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.item{
+    display: flex;
+    justify-content :space-evenly;
+    background-color: white;
+    max-width: 400px;
+
+}
+
+.description{
+    width :100px
+}
+
+.plus-btn, .Quantity, .sustraction-btn, .delete-btn, .Prix_unitaire, .amount{
+    margin-right: 70px;
+    margin-top: 50px;
+}
+
+.amount{
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:0.6cm ;
+}
+
+i{ 
+    margin-right: 10px;
+    margin-top: 55px;
+}
+
+
+.product1, .description, .sustraction-btn,.price{
+    margin-right: 50px;
+}
+
+.description, .sustraction-btn,.price{
+    margin-top: 50px;
+}
+
+.TP {
+    background-color:  #d1c8bc;
+    color: rgb(129, 56, 56);
+    float: right;
+    margin-top: 20px;
+    margin-right: 350px;
+    font-weight: bolder;
+    padding: 25px;
+    font-size: 0.9cm;
+}
+
+#total-price,#TD {
+    color: rgb(129, 56, 56);
+    background-color: #d1c8bc;
+    font-size: 0.9cm
+}
